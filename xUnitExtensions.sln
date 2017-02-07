@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xunit", "Xunit\Xunit.csproj", "{2FCEFB8A-1C24-4D9A-9A6A-F633C8ABC42D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnitExtensions", "xUnitExtensions\xUnitExtensions.csproj", "{2FCEFB8A-1C24-4D9A-9A6A-F633C8ABC42D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xunit.Tests", "Xunit.Tests\Xunit.Tests.csproj", "{2DFF4912-2B88-418F-AA04-4988FC2500F6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnitExtensions.Tests", "xUnitExtensions.Tests\xUnitExtensions.Tests.csproj", "{2DFF4912-2B88-418F-AA04-4988FC2500F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

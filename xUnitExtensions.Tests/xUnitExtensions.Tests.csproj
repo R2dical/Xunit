@@ -76,7 +76,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Xunit\Xunit.csproj">
+    <ProjectReference Include="..\xUnitExtensions\xUnitExtensions.csproj">
       <Project>{2FCEFB8A-1C24-4D9A-9A6A-F633C8ABC42D}</Project>
       <Name>Xunit</Name>
     </ProjectReference>
