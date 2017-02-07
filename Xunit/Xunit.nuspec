@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Xunit</id>
+        <version>$version$</version>
+        <title>Xunit</title>
+        <authors>Sean Sobey</authors>
+        <owners>Sean Sobey</owners>
+        <projectUrl>https://github.com/SeanSobey/Xunit</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Xunit</description>
+        <releaseNotes />
+        <copyright>Copyright 2017</copyright>
+        <tags>Testing xUnit xUnit.net</tags>
+    </metadata>
+</package>
