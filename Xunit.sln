@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xunit", "Xunit\Xunit.csproj", "{2FCEFB8A-1C24-4D9A-9A6A-F633C8ABC42D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XunitTests", "XunitTests\XunitTests.csproj", "{2DFF4912-2B88-418F-AA04-4988FC2500F6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xunit.Tests", "Xunit.Tests\Xunit.Tests.csproj", "{2DFF4912-2B88-418F-AA04-4988FC2500F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = e9e29ccd-5254-40e3-bbd2-5bc7d5b77e93
 	EndGlobalSection
 EndGlobal
