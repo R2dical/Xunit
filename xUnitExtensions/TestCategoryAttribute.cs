@@ -4,7 +4,7 @@ using Xunit.Sdk;
 namespace Xunit
 {
 	[AttributeUsage(AttributeTargets.Class, AllowMultiple = false)]
-	[TraitDiscoverer(nameof(TestCategoryTraitDiscoverer), "Sage.BI.RQE.SageOneInt.Tests")]
+	[TraitDiscoverer(nameof(TestCategoryTraitDiscoverer), "xUnitExtensions.Core")]
 	public abstract class TestCategoryAttribute : Attribute, ITraitAttribute
 	{
 		public string TestCategory { get; }
