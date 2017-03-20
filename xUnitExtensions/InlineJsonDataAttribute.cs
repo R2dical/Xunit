@@ -28,7 +28,7 @@ namespace Xunit
 		{
 			var testMethodParameters = testMethod.GetParameters();
 			if (_jsonData.Length != testMethodParameters.Length)
-				throw new XunitException("Json data length does not match method parameters length");
+				throw new ArgumentException("Json data length does not match method parameters length", nameof(testMethod));
 
 			yield return _jsonData.Zip(testMethodParameters, (data, parameterInfo) =>
 			{

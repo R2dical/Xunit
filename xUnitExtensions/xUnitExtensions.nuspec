@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
-    <metadata>
-        <id>$id$</id>
-        <version>$version$</version>
-        <title>$title$</title>
-        <authors>$author$</authors>
-        <owners>$author$</owners>
-        <projectUrl>https://github.com/SeanSobey/Xunit</projectUrl>
-        <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>Extra extensions for xUnit.Net</description>
-        <releaseNotes />
-        <copyright>Copyright © 2017</copyright>
-        <tags>Testing xUnit xUnit.net</tags>
-        <dependencies>
-            <group targetFramework=".NETFramework4.6.1">
-                <dependency id="Google.Apis.Sheets.v4" version="1.21.0.764" />
-                <dependency id="Microsoft.Extensions.FileSystemGlobbing" version="1.1.0" />
-                <dependency id="xunit.extensibility.core" version="2.1.0" />
-                <dependency id="Newtonsoft.Json" version="8.0.3" />
-            </group>
-        </dependencies>
-    </metadata>
+	<metadata>
+		<id>$id$</id>
+		<version>$version$</version>
+		<title>$title$</title>
+		<authors>$author$</authors>
+		<owners>$author$</owners>
+		<projectUrl>https://github.com/SeanSobey/Xunit</projectUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>Extra extensions for xUnit.Net</description>
+		<releaseNotes />
+		<copyright>Copyright © 2017</copyright>
+		<tags>Testing xUnit xUnit.net</tags>
+		<dependencies>
+			<group targetFramework=".NETFramework4.6.1">
+				<dependency id="Google.Apis.Sheets.v4" version="1.21.0.764" />
+				<dependency id="Microsoft.Extensions.FileSystemGlobbing" version="1.1.0" />
+				<dependency id="Microsoft.Graph" version="1.2.0" />
+				<dependency id="Newtonsoft.Json" version="8.0.3" />
+				<dependency id="xunit.extensibility.execution" version="2.2.0" />
+			</group>
+		</dependencies>
+	</metadata>
 </package>
