@@ -57,6 +57,7 @@ namespace Xunit
 
 		private FileDataAttribute(object[] data)
 		{
+			_encoding = Encoding.UTF8;
 			_data = data;
 		}
 
@@ -68,8 +69,8 @@ namespace Xunit
 			foreach (var filePath in _filePaths)
 			{
 				yield return _delimiters != null
-					? File.ReadAllText(filePath).Split(_delimiters, _stringSplitOptions).Concat(_data).ToArray()
-					: new[] { File.ReadAllText(filePath) }.Concat(_data).ToArray();
+					? File.ReadAllText(filePath, _encoding).Split(_delimiters, _stringSplitOptions).Concat(_data).ToArray()
+					: new[] { File.ReadAllText(filePath, _encoding) }.Concat(_data).ToArray();
 			}
 		}
 

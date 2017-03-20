@@ -13,10 +13,8 @@
 		<releaseNotes />
 		<tags>Testing xUnit xUnit.net</tags>
 		<dependencies>
-			<group targetFramework=".NETFramework4.6.1">
-				<dependency id="Google.Apis.Sheets.v4" version="1.21.0.764" />
+			<group targetFramework=".NETFramework4.6">
 				<dependency id="Microsoft.Extensions.FileSystemGlobbing" version="1.1.0" />
-				<dependency id="Microsoft.Graph" version="1.2.0" />
 				<dependency id="Newtonsoft.Json" version="8.0.3" />
 				<dependency id="xunit.extensibility.execution" version="2.2.0" />
 			</group>
