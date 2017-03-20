@@ -3,14 +3,14 @@
 	<metadata>
 		<id>$id$</id>
 		<version>$version$</version>
-		<title>$title$</title>
+		<title>$id$</title>
 		<authors>$author$</authors>
 		<owners>$author$</owners>
 		<projectUrl>https://github.com/SeanSobey/Xunit</projectUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<description>Extra extensions for xUnit.Net</description>
+		<description>$description$</description>
+		<copyright>$copyright$</copyright>
 		<releaseNotes />
-		<copyright>Copyright © 2017</copyright>
 		<tags>Testing xUnit xUnit.net</tags>
 		<dependencies>
 			<group targetFramework=".NETFramework4.6.1">

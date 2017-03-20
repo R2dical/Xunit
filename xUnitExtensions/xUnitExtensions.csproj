@@ -7,8 +7,8 @@
     <ProjectGuid>{2FCEFB8A-1C24-4D9A-9A6A-F633C8ABC42D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Xunit</RootNamespace>
-    <AssemblyName>Xunit</AssemblyName>
+    <RootNamespace>xUnitExtensions</RootNamespace>
+    <AssemblyName>xUnitExtensions</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
