@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
 	<metadata>
 		<id>$id$</id>
 		<version>$version$</version>
@@ -8,12 +8,12 @@
 		<owners>$author$</owners>
 		<licenseUrl>https://raw.githubusercontent.com/SeanSobey/Xunit/master/LICENSE.md</licenseUrl>
 		<projectUrl>https://github.com/SeanSobey/Xunit</projectUrl>
-		<iconUrl>https://raw.githubusercontent.com/SeanSobey/Xunit/master/xUnitExtensions/logo-512-transparent.png</iconUrl>
+		<iconUrl>https://raw.githubusercontent.com/SeanSobey/Xunit/master/xUnitExtensions.Microsoft/logo-512-transparent.png</iconUrl>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>$description$</description>
 		<summary>$description$</summary>
 		<releaseNotes />
 		<copyright>>$copyright$</copyright>
-		<tags>Testing xUnit xUnit.net</tags>
+		<tags>Testing xUnit xUnit.net Microsoft</tags>
 	</metadata>
 </package>

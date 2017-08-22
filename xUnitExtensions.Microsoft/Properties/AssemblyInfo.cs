@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("xUnitExtensions.Microsoft")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Xunit.Net Extensions for Microsoft products")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Sean Sobey")]
 [assembly: AssemblyProduct("xUnitExtensions.Microsoft")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
